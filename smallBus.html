@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Park Ahead.com</title>
+	<link rel="stylesheet" type="text/css" href="busStyle.css">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="Business.js"></script><!--Javascript JQuery file-->
+</head>
+<body>
+	<header id="thetop">
+		<h1>Welcome to Park Ahead</h1>
+		<p>We've found your parking spot already!</p>
+	</header>
+	<div id="middle">
+		<nav id="navigate">
+			<div id="nav1"><a href="#">Reservations </a></div>
+			<div id="nav2"><a href="clients.html">Parking Clients</a></div>
+			<div id="nav3"><a href="subscribe.html">Subscribe</a></div>
+		</nav>
+		<section id="filler">
+			<h2>We'll link you with parking operators in the area</h2>
+			<form>
+			<fieldset>
+				<legend>Pick your option</legend>
+				<label class="one">
+					<span>Select Parking Choice:</span>
+					<input type="checkbox" name="P1" value="Free Parking" checked> Free Parking
+					<input type="checkbox" name="P1" value="Secured Parking"> Secured Parking
+					<input type="checkbox" name="P1" value="Valet Parking"> Valet Parking
+				</label>
+				<label class="two">
+					<span>Enter destination address below:</span>
+					<input type="text" name="location" placeholder="205 SW Amber Dr, CT 87621">
+				</label>
+				<!--input class="btn" type="submit" name="submit" value="Find Nearby Parking"-->
+				<button class="btn" type="button">Find Nearby Parking</button-->
+			</fieldset>
+			</form>
+			<p class="hidden">Please subscribe for detailed information</p>
+		</section>
+	</div>
+	<footer id="bottom">
+		<p><span>Office Address:</span> 999 NW Crossroads Dr, Tacoma WA 87538</p>
+		<p><span>Mailing Address:</span> P.O Box 2461 Adventures Rd, Tacoma WA 87538</p>
+		<p><span>Telephone:</span> 1-800-999-999</p>
+		<a href="mailto:samson@parkahead.com?subject=Inquiries%20about%20parking">
+			Inquiries
+		</a>
+		<a href="mailto:Admin@parkahead.com?subject=Apply%20to%20directory">
+			Business Applications
+		</a>
+		<small>&copy;2014 - 2015 Samson</small>
+
+	</footer>
+</body>
+</html>

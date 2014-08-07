@@ -1,0 +1,207 @@
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+  	padding: 0;
+  	border: 0;
+}
+
+html {
+	background-color: #81BEF7;
+}
+/*-------------------------------------------------
+	The Top Page contains the header greeting
+-------------------------------------------------*/
+#thetop {
+	text-align: center;
+	background: linear-gradient(#F5F6CE, #81BEF7);
+	height: 120px;
+	width: 100%;
+	border: 1px solid #086A87;
+}
+
+#thetop h1 {
+	margin: 20px;
+}
+
+/*-------------------------------------------------------------------
+	The Middle Page has 2 side-by-side blocks for nav and content
+-----------------------------------------------------------------------*/
+#middle {
+	background-color: yellow;
+	height: 390px;
+}
+
+#navigate {
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 390px;
+	background: linear-gradient(#F5F6CE, #81BEF7);
+}
+
+#navigate a {
+	display: block;
+	margin: 10px;
+	text-decoration: underline;
+	font-size: larger;
+	padding: 2px;
+}
+
+#navigate a:hover {
+	color: white;
+	font-size: 1.4em;
+}
+
+nav div {
+	text-align: left;
+	margin: 80px auto;
+}
+
+.hidden {
+	display: none;
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	color: yellow;
+	background-color: blue;
+}
+#filler {
+	position: relative;
+	float: right;
+	width: 90%;
+	height: 390px;
+	text-align: center;
+	background-image: url("map2.png");
+}
+
+#filler ol {
+	text-align: center;
+	list-style-type: none;
+}
+
+#filler p, #filler li {
+	font-size: 1.2em;
+}
+
+#filler h2 {
+	margin: 30px;
+}
+
+fieldset {
+ 	background: linear-gradient(#F5F6CE, #81BEF7);
+	border-radius: 10px;
+	border: 2px solid yellow;
+	margin: 30px;
+}
+
+form {
+	font-size: 30px;
+	margin: 10px;
+}
+form .two {
+	display: block;
+	margin: 20px;
+	text-align: center;
+}
+
+form .two span {
+	display: block;
+}
+
+form .two input {
+	height: 30px;
+	width: 650px;
+	font-size: 25px;
+	text-align: center;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+legend {
+	font-size: 0.7em;
+	color: #610B21;
+	text-align: left;
+}
+
+label span {
+	font-family: cursive;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #F2F2F2;
+  border-radius: 5px;
+  border: 0;
+  padding: 0.5em;
+  margin: 1em;
+  font-size: 0.7em;
+  color: #6E6E6E;
+}
+
+input:focus {
+    /* To give a little highlight on active elements */
+    border: 1px solid red;
+}
+
+/*-------------------------------------------------
+	Styling for other html links
+-------------------------------------------------*/
+#subsc, #clients {
+	background: linear-gradient(#F5F6CE, #81BEF7);
+}
+
+#desk {
+	text-align: center;
+	margin: 20px;
+	border-collapse: collapse;
+	border-spacing: 0.5em;
+	border: 1px solid olive;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 200%;
+  border-bottom: .2em solid #4ca;
+  margin-bottom: .5em;
+}
+
+#desk th,
+#desk td {
+  padding-right: .5em;
+  border: 1px solid olive;
+}
+
+#desk th {
+  font-weight: bold;
+  padding-left: .5em;
+}
+
+#desk thead th {
+  text-align: center;
+}
+
+/*-------------------------------------------------------------------
+	The Footer has the conact information and email links
+-----------------------------------------------------------------------*/
+footer {
+ 	position: relative;
+ 	right: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	clear: both;
+ 	text-align: center;
+ 	background: linear-gradient(#F5F6CE, #81BEF7);
+ }
+
+#bottom p,a {
+	display: inline-block;
+	margin: 10px;
+}
+
+#bottom span {
+	font-weight: bolder;
+	font-family: cursive;
+}
